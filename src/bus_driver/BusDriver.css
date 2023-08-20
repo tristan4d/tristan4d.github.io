@@ -1,0 +1,22 @@
+.BusDriverWrapper {
+    width: 100%;
+    height: 100%;
+    border: 4px solid #333;
+    border-radius: 20px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.BusDriver {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.BusDriver aside {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    padding: 0 20px;
+}
