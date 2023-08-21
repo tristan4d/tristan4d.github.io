@@ -1,5 +1,7 @@
 import { useState, useMemo, useEffect, useCallback } from 'react';
 import { MapContainer, TileLayer, Marker, Tooltip } from 'react-leaflet';
+import markerIconPng from "leaflet/dist/images/marker-icon.png"
+import { Icon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import './AboutMeMap.css'
 
@@ -36,6 +38,7 @@ export default function AboutMeMap({ value, locations, center, handleChange, min
                     return <Marker
                         key={location.id}
                         position={[location.lat, location.lng]}
+                        icon={new Icon({ iconUrl: markerIconPng, iconSize: [25, 41], iconAnchor: [12, 41] })}
                         eventHandlers={{
                             click: (e) => {
                                 handleChange(e, location.id)
