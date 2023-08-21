@@ -38,15 +38,15 @@ export default function AboutMeMap({ value, locations, center, handleChange, min
                     return <Marker
                         key={location.id}
                         position={[location.lat, location.lng]}
-                        icon={new Icon({ iconUrl: markerIconPng, iconSize: [25, 41] })}
+                        icon={new Icon({ iconUrl: markerIconPng, iconSize: [25, 41], iconAnchor: [12, 41] })}
                         eventHandlers={{
                             click: (e) => {
                                 handleChange(e, location.id)
                             }
                         }}
                     >
-                        {value === location.id && (<Tooltip permanent><b>{location.city}</b><br />{location.tooltip}</Tooltip>)}
-                        {value !== location.id && (<Tooltip><b>{location.city}</b><br />{location.tooltip}</Tooltip>)}
+                        {value === location.id && (<Tooltip permanent offset={[0, 20]}><b>{location.city}</b><br />{location.tooltip}</Tooltip>)}
+                        {value !== location.id && (<Tooltip offset={[0, 20]}><b>{location.city}</b><br />{location.tooltip}</Tooltip>)}
                     </Marker>
                 })}
             </MapContainer>
