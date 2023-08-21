@@ -37,7 +37,7 @@ export default function Vancouver() {
                             objectFit: 'contain'
                         }}
                         alt="Storm the wall."
-                        src="src/assets/images/vancouver/storm-the-wall.JPG"
+                        src="./assets/images/vancouver/storm-the-wall.JPG"
                     />
                     <Box
                         component="img"
@@ -47,7 +47,7 @@ export default function Vancouver() {
                             objectFit: 'contain'
                         }}
                         alt="Thunderbird game."
-                        src="src/assets/images/vancouver/thunderbird.JPG"
+                        src="./assets/images/vancouver/thunderbird.JPG"
                     />
                 </Box>
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
@@ -91,7 +91,7 @@ export default function Vancouver() {
                             objectFit: 'contain'
                         }}
                         alt="Co-op 1."
-                        src="src/assets/images/vancouver/snc-1.JPG"
+                        src="./assets/images/vancouver/snc-1.JPG"
                     />
                     <Box
                         component="img"
@@ -101,7 +101,7 @@ export default function Vancouver() {
                             objectFit: 'contain'
                         }}
                         alt="Co-op 2."
-                        src="src/assets/images/vancouver/snc-2.JPG"
+                        src="./assets/images/vancouver/snc-2.JPG"
                     />
                 </Box>
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
@@ -125,7 +125,7 @@ export default function Vancouver() {
                         alignSelf: 'center'
                     }}
                     alt="Engineering hockey team."
-                    src="src/assets/images/vancouver/hockey-3.JPG"
+                    src="./assets/images/vancouver/hockey-3.JPG"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', maxWidth: 800 }}>
                     Figure 3: first place, representing the Cairn!
@@ -151,7 +151,7 @@ export default function Vancouver() {
                         alignSelf: 'center'
                     }}
                     alt="The night shift."
-                    src="src/assets/images/vancouver/night-shift.JPG"
+                    src="./assets/images/vancouver/night-shift.JPG"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', maxWidth: 800 }}>
                     Figure 4: Canada Line SkyTrain station during off-hours.
@@ -169,7 +169,7 @@ export default function Vancouver() {
                         alignSelf: 'center'
                     }}
                     alt="My partner and I."
-                    src="src/assets/images/vancouver/partner-1.JPG"
+                    src="./assets/images/vancouver/partner-1.JPG"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', maxWidth: 800 }}>
                     Figure 5: my partner and I enjoying a sunflower maze.

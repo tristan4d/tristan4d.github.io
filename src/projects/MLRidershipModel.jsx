@@ -113,7 +113,7 @@ function MLRidershipModel({ date }) {
                         alignSelf: 'center'
                     }}
                     alt="Project methodology flow-chart."
-                    src="src/assets/images/ai-ridership-model/flow-chart.png"
+                    src="./assets/images/ai-ridership-model/flow-chart.png"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 1: project flow chart.
@@ -146,7 +146,7 @@ function MLRidershipModel({ date }) {
                             width: '50%'
                         }}
                         alt="Explanatory variable plots."
-                        src="src/assets/images/ai-ridership-model/variable-plots.png"
+                        src="./assets/images/ai-ridership-model/variable-plots.png"
                     />
                     <Box
                         component="img"
@@ -154,7 +154,7 @@ function MLRidershipModel({ date }) {
                             width: '50%'
                         }}
                         alt="Latin hypercube sampling output."
-                        src="src/assets/images/ai-ridership-model/lhs-output.jpg"
+                        src="./assets/images/ai-ridership-model/lhs-output.jpg"
                     />
                 </Box>
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
@@ -197,7 +197,7 @@ function MLRidershipModel({ date }) {
                             maxWidth: '100%'
                         }}
                         alt="Multiple linear regression model output."
-                        src="src/assets/images/ai-ridership-model/ml-predictions.png"
+                        src="./assets/images/ai-ridership-model/ml-predictions.png"
                     />
                     <Box
                         component="img"
@@ -206,7 +206,7 @@ function MLRidershipModel({ date }) {
                             maxWidth: '100%'
                         }}
                         alt="Neural network model output."
-                        src="src/assets/images/ai-ridership-model/nn-predictions.png"
+                        src="./assets/images/ai-ridership-model/nn-predictions.png"
                     />
                 </Box>
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>

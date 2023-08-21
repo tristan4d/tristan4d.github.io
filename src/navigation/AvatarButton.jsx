@@ -10,7 +10,7 @@ export default function ImageAvatar({ onClick }) {
             <Avatar
                 sx={{ width: 80, height: 80 }}
                 alt="tristan ford"
-                src="src/assets/images/avatar/FordT_Bus-2.jpg"
+                src="./assets/images/avatar/FordT_Bus-2.jpg"
             />
         </IconButton>
     );

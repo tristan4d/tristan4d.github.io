@@ -53,7 +53,7 @@ function ODSurvey({ date }) {
                         alignSelf: 'center'
                     }}
                     alt="VRTS future transit network."
-                    src="src/assets/images/od-survey/tfp-network.png"
+                    src="./assets/images/od-survey/tfp-network.png"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 1: transit future network from the 2011 VRTS Transit Future Plan.
@@ -86,7 +86,7 @@ function ODSurvey({ date }) {
                         alignSelf: 'center'
                     }}
                     alt="Study zones."
-                    src="src/assets/images/od-survey/study-zones.png"
+                    src="./assets/images/od-survey/study-zones.png"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 2: study zones used in the StreetLight origin-destination analysis.
@@ -118,7 +118,7 @@ function ODSurvey({ date }) {
                             width: '50%'
                         }}
                         alt="2017 origins barplot."
-                        src="src/assets/images/od-survey/2017-origin-barplot.png"
+                        src="./assets/images/od-survey/2017-origin-barplot.png"
                     />
                     <Box
                         component="img"
@@ -126,7 +126,7 @@ function ODSurvey({ date }) {
                             width: '50%'
                         }}
                         alt="2017 destinations barplot."
-                        src="src/assets/images/od-survey/2017-destination-barplot.png"
+                        src="./assets/images/od-survey/2017-destination-barplot.png"
                     />
                 </Box>
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
@@ -178,7 +178,7 @@ function ODSurvey({ date }) {
                                 maxWidth: '50%'
                             }}
                             alt="2022 vs. 2017 ratios."
-                            src="src/assets/images/od-survey/ratio-heatmap.png"
+                            src="./assets/images/od-survey/ratio-heatmap.png"
                         />
                         <Box
                             component="img"
@@ -186,7 +186,7 @@ function ODSurvey({ date }) {
                                 maxWidth: '50%'
                             }}
                             alt="2022 vs. 2017 absolute values."
-                            src="src/assets/images/od-survey/abs-heatmap.png"
+                            src="./assets/images/od-survey/abs-heatmap.png"
                         />
                     </Box>
                     <Box
@@ -195,7 +195,7 @@ function ODSurvey({ date }) {
                             maxWidth: '100%'
                         }}
                         alt="2022 vs. 2017 all zones."
-                        src="src/assets/images/od-survey/zone-heatmap.png"
+                        src="./assets/images/od-survey/zone-heatmap.png"
                     />
                 </Box>
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
@@ -239,7 +239,7 @@ function ODSurvey({ date }) {
                             maxWidth: '50%'
                         }}
                         alt="2017 survey desire lines."
-                        src="src/assets/images/od-survey/survey-desire-map.png"
+                        src="./assets/images/od-survey/survey-desire-map.png"
                     />
                     <Box sx={{
                         display: 'flex',
@@ -252,7 +252,7 @@ function ODSurvey({ date }) {
                                 maxWidth: '50%'
                             }}
                             alt="2022 StreetLight desire lines north."
-                            src="src/assets/images/od-survey/streetlight-desire-north.png"
+                            src="./assets/images/od-survey/streetlight-desire-north.png"
                         />
                         <Box
                             component="img"
@@ -261,7 +261,7 @@ function ODSurvey({ date }) {
                                 mt: 2
                             }}
                             alt="2022 StreetLight desire lines south."
-                            src="src/assets/images/od-survey/streetlight-desire-south.png"
+                            src="./assets/images/od-survey/streetlight-desire-south.png"
                         />
                     </Box>
                 </Box>
@@ -297,7 +297,7 @@ function ODSurvey({ date }) {
                         alignSelf: 'center'
                     }}
                     alt="2022 desire through Uptown."
-                    src="src/assets/images/od-survey/streetlight-desire-uptown.png"
+                    src="./assets/images/od-survey/streetlight-desire-uptown.png"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 6: 2022 top 5 desire lines passing through the Uptown precinct, which is highlighted in green.
@@ -332,7 +332,7 @@ function ODSurvey({ date }) {
                         alignSelf: 'center'
                     }}
                     alt="2022 desire in Saanich East."
-                    src="src/assets/images/od-survey/streetlight-desire-saanich-east.png"
+                    src="./assets/images/od-survey/streetlight-desire-saanich-east.png"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 7: 2022 largest desire lines between Saanich East census tracts.  McKenzie Avenue is highlighted in
@@ -363,7 +363,7 @@ function ODSurvey({ date }) {
                         alignSelf: 'center'
                     }}
                     alt="2022 desire on the Peninsula."
-                    src="src/assets/images/od-survey/streetlight-desire-peninsula.png"
+                    src="./assets/images/od-survey/streetlight-desire-peninsula.png"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 8: 2022 largest desire lines to / from the Peninsula.
@@ -405,7 +405,7 @@ function ODSurvey({ date }) {
                             p: 1
                         }}
                         alt="Percent of origins by ethnicity."
-                        src="src/assets/images/od-survey/ethnicity-origin.png"
+                        src="./assets/images/od-survey/ethnicity-origin.png"
                     />
                     <Box
                         component="img"
@@ -414,7 +414,7 @@ function ODSurvey({ date }) {
                             p: 1
                         }}
                         alt="Percent of destinations by ethnicity."
-                        src="src/assets/images/od-survey/ethnicity-destination.png"
+                        src="./assets/images/od-survey/ethnicity-destination.png"
                     />
                 </Box>
                 <Box
@@ -429,7 +429,7 @@ function ODSurvey({ date }) {
                             p: 1
                         }}
                         alt="Percent of origins by income."
-                        src="src/assets/images/od-survey/income-origin.png"
+                        src="./assets/images/od-survey/income-origin.png"
                     />
                     <Box
                         component="img"
@@ -438,7 +438,7 @@ function ODSurvey({ date }) {
                             p: 1
                         }}
                         alt="Percent of destinations by income."
-                        src="src/assets/images/od-survey/income-destination.png"
+                        src="./assets/images/od-survey/income-destination.png"
                     />
                 </Box>
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>

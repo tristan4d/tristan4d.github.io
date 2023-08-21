@@ -38,7 +38,7 @@ export default function Calgary() {
                             objectFit: 'contain'
                         }}
                         alt="Hockey picture 1."
-                        src="src/assets/images/calgary/hockey-1.jpeg"
+                        src="./assets/images/calgary/hockey-1.jpeg"
                     />
                     <Box
                         component="img"
@@ -48,7 +48,7 @@ export default function Calgary() {
                             objectFit: 'contain'
                         }}
                         alt="Hockey picture 2."
-                        src="src/assets/images/calgary/hockey-2.JPG"
+                        src="./assets/images/calgary/hockey-2.JPG"
                     />
                 </Box>
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
@@ -73,7 +73,7 @@ export default function Calgary() {
                         alignSelf: 'center'
                     }}
                     alt="Graduation."
-                    src="src/assets/images/calgary/graduation.JPG"
+                    src="./assets/images/calgary/graduation.JPG"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 2: 2014 high school graduation with some great friends.

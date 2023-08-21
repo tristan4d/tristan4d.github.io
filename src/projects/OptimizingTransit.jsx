@@ -142,7 +142,7 @@ function OptimizingTransit({ date }) {
                         alignSelf: 'center'
                     }}
                     alt="User interface."
-                    src="src/assets/images/optimizing-transit/ui.png"
+                    src="./assets/images/optimizing-transit/ui.png"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 1: user interface for the Excel analyzer.
@@ -171,7 +171,7 @@ function OptimizingTransit({ date }) {
                             maxWidth: '100%'
                         }}
                         alt="System details."
-                        src="src/assets/images/optimizing-transit/system-details.png"
+                        src="./assets/images/optimizing-transit/system-details.png"
                     />
                     <Box
                         component="img"
@@ -181,7 +181,7 @@ function OptimizingTransit({ date }) {
                             mt: 2
                         }}
                         alt="Opportunities."
-                        src="src/assets/images/optimizing-transit/opportunities.png"
+                        src="./assets/images/optimizing-transit/opportunities.png"
                     />
                     <Box
                         component="img"
@@ -191,7 +191,7 @@ function OptimizingTransit({ date }) {
                             mt: 2
                         }}
                         alt="Risks."
-                        src="src/assets/images/optimizing-transit/risk.png"
+                        src="./assets/images/optimizing-transit/risk.png"
                     />
                 </Box>
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
@@ -231,7 +231,7 @@ function OptimizingTransit({ date }) {
                             maxWidth: '100%'
                         }}
                         alt="Boardings per day."
-                        src="src/assets/images/optimizing-transit/daily-boardings.png"
+                        src="./assets/images/optimizing-transit/daily-boardings.png"
                     />
                     <Box
                         component="img"
@@ -241,7 +241,7 @@ function OptimizingTransit({ date }) {
                             mt: 2
                         }}
                         alt="Boardings per service hour."
-                        src="src/assets/images/optimizing-transit/boardings-per-hr.png"
+                        src="./assets/images/optimizing-transit/boardings-per-hr.png"
                     />
                 </Box>
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
@@ -297,7 +297,7 @@ function OptimizingTransit({ date }) {
                         alignSelf: 'center'
                     }}
                     alt="System Health Check dashboard."
-                    src="src/assets/images/optimizing-transit/system-health-check.png"
+                    src="./assets/images/optimizing-transit/system-health-check.png"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 4: system health check dashboard for Victoria between 2022-2023.
@@ -325,7 +325,7 @@ function OptimizingTransit({ date }) {
                         alignSelf: 'center'
                     }}
                     alt="Trip Analyzer dashboard."
-                    src="src/assets/images/optimizing-transit/trip-analyzer.png"
+                    src="./assets/images/optimizing-transit/trip-analyzer.png"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 4: trip analyzer for route 75 weekdays in spring 2023.  The image shows the afternoon peak in the
@@ -356,7 +356,7 @@ function OptimizingTransit({ date }) {
                         alignSelf: 'center'
                     }}
                     alt="Trip Profile dashboard."
-                    src="src/assets/images/optimizing-transit/trip-profile.png"
+                    src="./assets/images/optimizing-transit/trip-profile.png"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 5: trip profile for the 1635 southbound trip on route 75 in Victoria, spring 2023.

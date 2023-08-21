@@ -28,7 +28,7 @@ export default function Wurzburg() {
                         alignSelf: 'center'
                     }}
                     alt="View of Würzburg."
-                    src="src/assets/images/wurzburg/cover-image.JPG"
+                    src="./assets/images/wurzburg/cover-image.JPG"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 1: view of Würzburg from the Marienberg Fortress.
@@ -55,7 +55,7 @@ export default function Wurzburg() {
                         alignSelf: 'center'
                     }}
                     alt="Friends by the river."
-                    src="src/assets/images/wurzburg/river.JPG"
+                    src="./assets/images/wurzburg/river.JPG"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 2: enjoying great company by the river in Würzburg.
@@ -82,7 +82,7 @@ export default function Wurzburg() {
                         alignSelf: 'center'
                     }}
                     alt="Football team."
-                    src="src/assets/images/wurzburg/soccer.JPG"
+                    src="./assets/images/wurzburg/soccer.JPG"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 3: the physical chemistry department's football team.
@@ -102,7 +102,7 @@ export default function Wurzburg() {
                         alignSelf: 'center'
                     }}
                     alt="Prague."
-                    src="src/assets/images/wurzburg/prague.JPG"
+                    src="./assets/images/wurzburg/prague.JPG"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 4: 5 am in Prague.

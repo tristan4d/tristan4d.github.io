@@ -18,7 +18,7 @@ const initialProjects = [
     {
         id: 0, cardVisibility: true, visibility: false,
         title: 'Optimizing Transit',
-        image: 'src/assets/images/optimizing-transit/cover-image.jpg',
+        image: './assets/images/optimizing-transit/cover-image.jpg',
         description: `
         Distilling automated passenger counter and automatic vehicle
         location data to optimize transit service.
@@ -33,7 +33,7 @@ const initialProjects = [
     {
         id: 1, cardVisibility: true, visibility: false,
         title: 'Victoria Origin Destination',
-        image: 'src/assets/images/od-survey/cover-image.png',
+        image: './assets/images/od-survey/cover-image.png',
         description: `
         Leveraging cell phone location data to align transit
         network design with travel demand.
@@ -48,7 +48,7 @@ const initialProjects = [
     {
         id: 2, cardVisibility: true, visibility: false,
         title: 'ML Ridership Model',
-        image: 'src/assets/images/ai-ridership-model/cover-image.jpg',
+        image: './assets/images/ai-ridership-model/cover-image.jpg',
         description: `
         Deep learning and multiple linear regression models to
         project future transit ridership.
@@ -63,7 +63,7 @@ const initialProjects = [
     {
         id: 3, cardVisibility: true, visibility: false,
         title: 'Avoided GHGs',
-        image: 'src/assets/images/avoided-ghgs/cover-image.jpg',
+        image: './assets/images/avoided-ghgs/cover-image.jpg',
         description: `
         Analyzing fleet and ridership data to estimate greenhouse
         gas emissions avoided by using transit.
@@ -78,7 +78,7 @@ const initialProjects = [
     {
         id: 4, cardVisibility: true, visibility: false,
         title: 'Railyard Switch System',
-        image: 'src/assets/images/railyard-switch-system/cover-image.jpg',
+        image: './assets/images/railyard-switch-system/cover-image.jpg',
         description: `
         Development of an in-house track switching and control
         system for heavy and light railyards.
@@ -93,7 +93,7 @@ const initialProjects = [
     {
         id: 5, cardVisibility: true, visibility: false,
         title: 'LRT Simulation',
-        image: 'src/assets/images/lrt-simulation/cover-image.jpg',
+        image: './assets/images/lrt-simulation/cover-image.jpg',
         description: `
         MATLAB Simulink simulation developed to analyze impacts of
         signaling methods on vehicle flow.
@@ -108,7 +108,7 @@ const initialProjects = [
     {
         id: 6, cardVisibility: true, visibility: false,
         title: 'Molecular Beam',
-        image: 'src/assets/images/molecular-beam/cover-image.jpg',
+        image: './assets/images/molecular-beam/cover-image.jpg',
         description: `
         Design and development of a molecular beam generator for multidimensional
         spectroscopy experiments.
@@ -123,7 +123,7 @@ const initialProjects = [
     {
         id: 7, cardVisibility: true, visibility: false,
         title: 'Thesis Placeholder',
-        image: 'src/assets/images/thesis-placeholder/cover-image.jpg',
+        image: './assets/images/thesis-placeholder/cover-image.jpg',
         description: `
         Coming soon.
         `,

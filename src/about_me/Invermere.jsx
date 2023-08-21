@@ -44,7 +44,7 @@ export default function Invermere() {
                             objectFit: 'contain'
                         }}
                         alt="Playing guitar."
-                        src="src/assets/images/invermere/guitar.JPG"
+                        src="./assets/images/invermere/guitar.JPG"
                     />
                     <Box
                         component="img"
@@ -54,7 +54,7 @@ export default function Invermere() {
                             objectFit: 'contain'
                         }}
                         alt="Family."
-                        src="src/assets/images/invermere/family.JPG"
+                        src="./assets/images/invermere/family.JPG"
                     />
                 </Box>
                 <Box sx={{
@@ -71,7 +71,7 @@ export default function Invermere() {
                             objectFit: 'contain'
                         }}
                         alt="Wakeboarding."
-                        src="src/assets/images/invermere/wakeboard.JPG"
+                        src="./assets/images/invermere/wakeboard.JPG"
                     />
                     <Box
                         component="img"
@@ -81,7 +81,7 @@ export default function Invermere() {
                             objectFit: 'contain'
                         }}
                         alt="Wakesurfing."
-                        src="src/assets/images/invermere/surf.JPG"
+                        src="./assets/images/invermere/surf.JPG"
                     />
                 </Box>
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
