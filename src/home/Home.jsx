@@ -43,7 +43,7 @@ export default function Home({ min_500 }) {
                     borderRadius: 2
                 }}
                 alt="Me on a boat."
-                src="./assets/images/home/cover-image.JPG"
+                src="/assets/images/home/cover-image.JPG"
             />
         </Box>
     )
