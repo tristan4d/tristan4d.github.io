@@ -45,8 +45,8 @@ export default function AboutMeMap({ value, locations, center, handleChange, min
                             }
                         }}
                     >
-                        {value === location.id && (<Tooltip permanent offset={[0, 20]}><b>{location.city}</b><br />{location.tooltip}</Tooltip>)}
-                        {value !== location.id && (<Tooltip offset={[0, 20]}><b>{location.city}</b><br />{location.tooltip}</Tooltip>)}
+                        {value === location.id && (<Tooltip permanent offset={[12, -20]}><b>{location.city}</b><br />{location.tooltip}</Tooltip>)}
+                        {value !== location.id && (<Tooltip offset={[12, -20]}><b>{location.city}</b><br />{location.tooltip}</Tooltip>)}
                     </Marker>
                 })}
             </MapContainer>
