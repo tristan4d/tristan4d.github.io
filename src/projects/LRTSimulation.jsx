@@ -7,7 +7,7 @@ import 'react-pdf/dist/esm/Page/TextLayer.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`
 
-import file from '../assets/lrt-simulation.pdf'
+import file from '../../public/assets/lrt-simulation.pdf'
 
 function LRTSimulation() {
     const [numPages, setNumPages] = useState(null);

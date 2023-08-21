@@ -7,7 +7,7 @@ import 'react-pdf/dist/esm/Page/TextLayer.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`
 
-import file from '../assets/molecular-beam-manual.pdf'
+import file from '../../public/assets/molecular-beam-manual.pdf'
 
 function MolecularBeam() {
     const [numPages, setNumPages] = useState(null);

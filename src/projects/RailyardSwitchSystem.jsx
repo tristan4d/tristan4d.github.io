@@ -7,7 +7,7 @@ import 'react-pdf/dist/esm/Page/TextLayer.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`
 
-import file from '../assets/railyard-switch-system.pdf'
+import file from '../../public/assets/railyard-switch-system.pdf'
 
 function RailyardSwitchSystem() {
     const [numPages, setNumPages] = useState(null);
