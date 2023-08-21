@@ -9,8 +9,6 @@ import { createTheme, ThemeProvider, responsiveFontSizes } from '@mui/material/s
 let theme = createTheme();
 theme = responsiveFontSizes(theme);
 
-import coverImage from "../assets/images/home/cover-image.JPG"
-
 export default function Home({ min_500 }) {
 
     return (
@@ -45,7 +43,7 @@ export default function Home({ min_500 }) {
                     borderRadius: 2
                 }}
                 alt="Me on a boat."
-                src={coverImage}
+                src="../assets/images/home/cover-image.JPG"
             />
         </Box>
     )
