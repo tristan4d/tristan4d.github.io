@@ -9,7 +9,7 @@ import { createTheme, ThemeProvider, responsiveFontSizes } from '@mui/material/s
 let theme = createTheme();
 theme = responsiveFontSizes(theme);
 
-import coverImage from "./assets/images/home/cover-image.JPG"
+import coverImage from "../assets/images/home/cover-image.JPG"
 
 export default function Home({ min_500 }) {
 
