@@ -35,7 +35,7 @@ export default function Victoria() {
                         alignSelf: 'center'
                     }}
                     alt="My family."
-                    src="./assets/images/victoria/family.JPG"
+                    src="./assets/images/victoria/family.jpg"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 1: My favourite people.

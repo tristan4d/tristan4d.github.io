@@ -169,7 +169,7 @@ export default function Vancouver() {
                         alignSelf: 'center'
                     }}
                     alt="My partner and I."
-                    src="./assets/images/vancouver/partner-1.JPG"
+                    src="./assets/images/vancouver/partner-1.jpg"
                 />
                 <Typography variant='caption' sx={{ alignSelf: 'center', maxWidth: 800 }}>
                     Figure 5: my partner and I enjoying a sunflower maze.

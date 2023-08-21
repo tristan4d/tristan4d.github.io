@@ -81,7 +81,7 @@ export default function Invermere() {
                             objectFit: 'contain'
                         }}
                         alt="Wakesurfing."
-                        src="./assets/images/invermere/surf.JPG"
+                        src="./assets/images/invermere/surf.jpg"
                     />
                 </Box>
                 <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
