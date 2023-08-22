@@ -31,7 +31,7 @@ export default function Home({ min_500 }) {
                     <Typography variant='overline' gutterBottom>
                         <Link href='https://github.com/tristan4d'><GitHubIcon /></Link>{' '}
                         <Link href='https://www.linkedin.com/in/tristan-ford-07087813b/'><LinkedInIcon /></Link>{' '}
-                        <Link href='mailto:tjford@mail.ubc.ca'><AlternateEmailIcon /></Link>{' '}
+                        <Link href='mailto:snapper.thinker-0o@icloud.com'><AlternateEmailIcon /></Link>{' '}
                     </Typography>
                 </ThemeProvider>
             </Box>

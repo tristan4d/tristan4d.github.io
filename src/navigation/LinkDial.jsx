@@ -21,7 +21,7 @@ const actions = [
         name: "GitHub"
     },
     {
-        icon: withLink("mailto:tjford@mail.ubc.ca",
+        icon: withLink("mailto:snapper.thinker-0o@icloud.com",
             <AlternateEmailIcon />),
         name: 'Email'
     },
