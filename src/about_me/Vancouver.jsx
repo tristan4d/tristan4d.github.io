@@ -127,7 +127,7 @@ export default function Vancouver() {
                     alt="Engineering hockey team."
                     src="./assets/images/vancouver/hockey-3.JPG"
                 />
-                <Typography variant='caption' sx={{ alignSelf: 'center', maxWidth: 800 }}>
+                <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 3: first place, representing the Cairn!
                 </Typography>
                 <Typography variant='h4' component='h1' gutterBottom>
@@ -153,7 +153,7 @@ export default function Vancouver() {
                     alt="The night shift."
                     src="./assets/images/vancouver/night-shift.JPG"
                 />
-                <Typography variant='caption' sx={{ alignSelf: 'center', maxWidth: 800 }}>
+                <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 4: Canada Line SkyTrain station during off-hours.
                 </Typography>
                 <Typography variant='body1' gutterBottom>
@@ -171,7 +171,7 @@ export default function Vancouver() {
                     alt="My partner and I."
                     src="./assets/images/vancouver/partner-1.jpg"
                 />
-                <Typography variant='caption' sx={{ alignSelf: 'center', maxWidth: 800 }}>
+                <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 5: my partner and I enjoying a sunflower maze.
                 </Typography>
                 <Typography variant='h4' component='h1' gutterBottom>

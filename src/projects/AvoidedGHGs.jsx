@@ -145,7 +145,7 @@ function AvoidedGHGs({ date }) {
                     alt="Avoided emissions results."
                     src="./assets/images/avoided-ghgs/results.png"
                 />
-                <Typography variant='caption' sx={{ alignSelf: 'center', maxWidth: 800 }}>
+                <Typography variant='caption' sx={{ alignSelf: 'center', textAlign: 'center', maxWidth: 800 }}>
                     Figure 1: estimated avoided GHG emissions tabulated for early 2023.
                 </Typography>
                 <Typography variant='h3' gutterBottom>
