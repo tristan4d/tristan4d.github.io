@@ -13,6 +13,7 @@ import RailyardSwitchSystem from './RailyardSwitchSystem';
 import OptimizingTransit from './OptimizingTransit';
 import ThesisPlaceholder from './ThesisPlaceholder';
 import ODSurvey from './ODSurvey';
+import TrafficFlow from './TrafficFlow';
 
 const initialProjects = [
     {
@@ -47,6 +48,36 @@ const initialProjects = [
     },
     {
         id: 2, cardVisibility: true, visibility: false,
+        title: 'Avoided GHGs',
+        image: './assets/images/avoided-ghgs/cover-image.jpg',
+        description: `
+        Analyzing fleet and ridership data to estimate greenhouse
+        gas emissions avoided by using transit.
+        `,
+        date: 'May 2023',
+        component: <AvoidedGHGs date='May 2023' />,
+        tags: <Stack direction='row' spacing={1}>
+            <Chip label='Python' size='small' variant='outlined' color='info' />
+            <Chip label='Data Analysis & Modeling' variant='outlined' size='small' color='info' />
+        </Stack>
+    },
+    {
+        id: 3, cardVisibility: true, visibility: false,
+        title: 'Traffic Flow Analysis',
+        image: './assets/images/traffic-flow/cover-image.png',
+        description: `
+        Simulation of traffic flow vs. density macroscopic
+        fundamental diagram.
+        `,
+        date: 'December 2022',
+        component: <TrafficFlow date='December 2022' />,
+        tags: <Stack direction='row' spacing={1}>
+            <Chip label='Python' variant='outlined' size='small' color='info' />
+            <Chip label='Data Analysis & Modeling' variant='outlined' size='small' color='info' />
+        </Stack>
+    },
+    {
+        id: 4, cardVisibility: true, visibility: false,
         title: 'ML Ridership Model',
         image: './assets/images/ai-ridership-model/cover-image.jpg',
         description: `
@@ -61,22 +92,7 @@ const initialProjects = [
         </Stack>
     },
     {
-        id: 3, cardVisibility: true, visibility: false,
-        title: 'Avoided GHGs',
-        image: './assets/images/avoided-ghgs/cover-image.jpg',
-        description: `
-        Analyzing fleet and ridership data to estimate greenhouse
-        gas emissions avoided by using transit.
-        `,
-        date: 'November 2022',
-        component: <AvoidedGHGs date='November 2022' />,
-        tags: <Stack direction='row' spacing={1}>
-            <Chip label='Python' size='small' variant='outlined' color='info' />
-            <Chip label='Data Analysis & Modeling' variant='outlined' size='small' color='info' />
-        </Stack>
-    },
-    {
-        id: 4, cardVisibility: true, visibility: false,
+        id: 5, cardVisibility: true, visibility: false,
         title: 'Railyard Switch System',
         image: './assets/images/railyard-switch-system/cover-image.jpg',
         description: `
@@ -91,7 +107,7 @@ const initialProjects = [
         </Stack>
     },
     {
-        id: 5, cardVisibility: true, visibility: false,
+        id: 6, cardVisibility: true, visibility: false,
         title: 'LRT Simulation',
         image: './assets/images/lrt-simulation/cover-image.jpg',
         description: `
@@ -106,7 +122,7 @@ const initialProjects = [
         </Stack>
     },
     {
-        id: 6, cardVisibility: true, visibility: false,
+        id: 7, cardVisibility: true, visibility: false,
         title: 'Molecular Beam',
         image: './assets/images/molecular-beam/cover-image.jpg',
         description: `
@@ -121,7 +137,7 @@ const initialProjects = [
         </Stack>
     },
     {
-        id: 7, cardVisibility: true, visibility: false,
+        id: 8, cardVisibility: true, visibility: false,
         title: 'Thesis Placeholder',
         image: './assets/images/thesis-placeholder/cover-image.jpg',
         description: `
