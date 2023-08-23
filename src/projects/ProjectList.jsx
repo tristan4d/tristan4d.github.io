@@ -63,21 +63,6 @@ const initialProjects = [
     },
     {
         id: 3, cardVisibility: true, visibility: false,
-        title: 'Traffic Flow Analysis',
-        image: './assets/images/traffic-flow/cover-image.png',
-        description: `
-        Simulation of traffic flow vs. density macroscopic
-        fundamental diagram.
-        `,
-        date: 'December 2022',
-        component: <TrafficFlow date='December 2022' />,
-        tags: <Stack direction='row' spacing={1}>
-            <Chip label='Python' variant='outlined' size='small' color='info' />
-            <Chip label='Data Analysis & Modeling' variant='outlined' size='small' color='info' />
-        </Stack>
-    },
-    {
-        id: 4, cardVisibility: true, visibility: false,
         title: 'ML Ridership Model',
         image: './assets/images/ai-ridership-model/cover-image.jpg',
         description: `
@@ -86,6 +71,21 @@ const initialProjects = [
         `,
         date: 'April 2022',
         component: <MLRidershipModel date='April 2022' />,
+        tags: <Stack direction='row' spacing={1}>
+            <Chip label='Python' variant='outlined' size='small' color='info' />
+            <Chip label='Data Analysis & Modeling' variant='outlined' size='small' color='info' />
+        </Stack>
+    },
+    {
+        id: 4, cardVisibility: true, visibility: false,
+        title: 'Traffic Flow Analysis',
+        image: './assets/images/traffic-flow/cover-image.png',
+        description: `
+        Simulation of traffic flow vs. density macroscopic
+        fundamental diagram.
+        `,
+        date: 'December 2021',
+        component: <TrafficFlow />,
         tags: <Stack direction='row' spacing={1}>
             <Chip label='Python' variant='outlined' size='small' color='info' />
             <Chip label='Data Analysis & Modeling' variant='outlined' size='small' color='info' />
