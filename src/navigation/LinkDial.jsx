@@ -11,7 +11,7 @@ const withLink = (to, children) => <Link href={to}>{children}</Link>;
 
 const actions = [
     {
-        icon: withLink("https://www.linkedin.com/in/tristan-ford-07087813b/",
+        icon: withLink("https://www.linkedin.com/in/tristan-f-07087813b/",
             <LinkedInIcon />),
         name: "LinkedIn"
     },
