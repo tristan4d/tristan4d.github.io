@@ -224,7 +224,7 @@ function MLRidershipModel({ date }) {
                     Several interesting insights can be drawn from this analysis:
                     <ul>
                         <li>
-                            With steady expansion funding, ridership is projected increase under pandemic or pre-pandemic conditions.
+                            With steady expansion funding, ridership is projected to increase under pandemic or pre-pandemic conditions.
                         </li>
                         <li>
                             Without expansion funding, there is a gradual upward trend under pandemic conditions.
