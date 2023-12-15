@@ -2,12 +2,7 @@ import { useState } from 'react';
 import Box from '@mui/material/Box';
 import AboutMeMap from './AboutMeMap';
 import AboutMeStepper from './AboutMeStepper';
-import TabPanel from '../navigation/TabPanel';
-import Calgary from './Calgary';
-import Vancouver from './Vancouver';
-import Invermere from './Invermere';
-import Wurzburg from './Wurburg';
-import Victoria from './Victoria';
+import ShortBio from './ShortBio';
 import 'leaflet/dist/leaflet.css'
 import './AboutMe.css'
 
@@ -43,7 +38,7 @@ const center = [
     30.623, -47.719
 ]
 
-export default function AboutMe({ min_500 }) {
+export default function AboutMeShort({ min_500 }) {
     const [value, setValue] = useState(0);
 
     const handleChange = (event, newValue) => {
@@ -65,21 +60,7 @@ export default function AboutMe({ min_500 }) {
                 <AboutMeStepper steps={locations.length} activeStep={value} handleNext={handleNext} handleBack={handleBack} />
             </div>
             <Box sx={{ width: min_500 ? '40vw' : '75vw', ml: min_500 ? 2 : 0 }}>
-                <TabPanel value={value} index={0}>
-                    <Calgary />
-                </TabPanel>
-                <TabPanel value={value} index={1}>
-                    <Invermere />
-                </TabPanel>
-                <TabPanel value={value} index={2}>
-                    <Vancouver />
-                </TabPanel>
-                <TabPanel value={value} index={3}>
-                    <Wurzburg />
-                </TabPanel>
-                <TabPanel value={value} index={4}>
-                    <Victoria />
-                </TabPanel>
+                <ShortBio />
             </Box>
         </div>
     )

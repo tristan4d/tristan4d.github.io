@@ -4,7 +4,8 @@ import CV from './cv/CV';
 import TabPanel from './navigation/TabPanel';
 import ProjectList from './projects/ProjectList';
 import NavTabs from './navigation/NavTabs';
-import AboutMe from './about_me/AboutMe';
+import AboutMeShort from './about_me/AboutMeShort';
+// import AboutMe from './about_me/AboutMe';
 import BusDriver from './bus_driver/BusDriver';
 import Home from './home/Home';
 import './MainContent.css';
@@ -35,7 +36,8 @@ export default function MainContent({ min_500 }) {
                     <ProjectList min_500={min_500} />
                 </TabPanel>
                 <TabPanel value={value} index={3}>
-                    <AboutMe min_500={min_500} />
+                    {/* <AboutMe min_500={min_500} /> */}
+                    <AboutMeShort min_500={min_500} />
                 </TabPanel>
                 <TabPanel value={value} index={4}>
                     <BusDriver />
