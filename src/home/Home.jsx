@@ -22,8 +22,8 @@ export default function Home({ min_500 }) {
                         Tristan Ford
                     </Typography>
                     <Typography variant='body1' gutterBottom>
-                        I am a transportation planning and engineering specialist creating transit tech solutions
-                        to move people effectively and efficiently within their communitites.
+                        I am a machine learning and optimization specialist passionate about developing
+                        solutions to efficiently transport people and goods across communities.
                     </Typography>
                     <Typography variant='overline' gutterBottom>
                         <i>May the bus be with you.</i>
