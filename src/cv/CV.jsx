@@ -6,7 +6,7 @@ import 'react-pdf/dist/esm/Page/TextLayer.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`
 
-import resume from '../../public/assets/2401-tristan-ford.pdf'
+import resume from '../../public/assets/2403-tristan-ford.pdf'
 
 function CV() {
     const [pageNumber, setPageNumber] = useState(1);
