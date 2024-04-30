@@ -9,7 +9,6 @@ import MLRidershipModel from "./MLRidershipModel";
 import AvoidedGHGs from "./AvoidedGHGs";
 import PDFView from "./PDFView";
 import OptimizingTransit from "./OptimizingTransit";
-import ThesisPlaceholder from "./ThesisPlaceholder";
 import ODSurvey from "./ODSurvey";
 
 import molecular_beam from "../../public/assets/molecular-beam-manual.pdf";
@@ -19,62 +18,112 @@ import traffic_flow from "../../public/assets/traffic-flow.pdf";
 import mobility_safety from "../../public/assets/big-data-mobility-safety.pdf";
 import av_weather from "../../public/assets/av-adverse-weather.pdf";
 import vott from "../../public/assets/value-of-travel-time.pdf";
+import bike_parking_rates from "../../public/assets/bike-parking-rates.pdf";
+import interim_thesis_report from "../../public/assets/interim-thesis-report.pdf";
 
 const initialProjects = [
-    {
-      id: 0,
-      cardVisibility: true,
-      visibility: false,
-      title: "Mobility and Safety",
-      image: "./assets/images/big-data-mobility-safety/cover-image.png",
-      description: `
+  {
+    id: 0,
+    cardVisibility: true,
+    visibility: false,
+    title: "Interim Thesis Report",
+    image: "./assets/images/interim-thesis-report/cover-image.png",
+    description: `
+        Investigating propagated delays in transit networks through
+        mixed integer linear programming.
+        `,
+    date: "Ongoing",
+    component: <PDFView file={interim_thesis_report} />,
+    tags: (
+      <Stack direction="row" spacing={1}>
+        <Chip label="Julia" variant="outlined" size="small" color="info" />
+        <Chip
+          label="Optimization"
+          variant="outlined"
+          size="small"
+          color="info"
+        />
+      </Stack>
+    ),
+  },
+  {
+    id: 1,
+    cardVisibility: true,
+    visibility: false,
+    title: "Bike Parking Rates",
+    image: "./assets/images/bike-parking-rates/cover-image.png",
+    description: `
+          Quantitative assessment of bike parking rates and bike
+          parking techbologies in Richmond, BC.
+          `,
+    date: "April 2024",
+    component: <PDFView file={bike_parking_rates} />,
+    tags: (
+      <Stack direction="row" spacing={1}>
+        <Chip label="Julia" variant="outlined" size="small" color="info" />
+        <Chip
+          label="Data Analysis & Modeling"
+          variant="outlined"
+          size="small"
+          color="info"
+        />
+      </Stack>
+    ),
+  },
+  {
+    id: 2,
+    cardVisibility: true,
+    visibility: false,
+    title: "Mobility and Safety",
+    image: "./assets/images/big-data-mobility-safety/cover-image.png",
+    description: `
             Assessing how big data can improve both mobility and
             safety via public transit.
             `,
-      date: "December 2023",
-      component: <PDFView file={mobility_safety} />,
-      tags: (
-        <Stack direction="row" spacing={1}>
-          <Chip
-            label="Math & Physics"
-            variant="outlined"
-            size="small"
-            color="info"
-          />
-          <Chip
-            label="Data Analysis & Modeling"
-            variant="outlined"
-            size="small"
-            color="info"
-          />
-        </Stack>
-      ),
-    },
-    {
-      id: 1,
-      cardVisibility: true,
-      visibility: false,
-      title: "Navigating Inclimate Weather",
-      image: "./assets/images/av-adverse-weather/cover-image.jpg",
-      description: `
+    date: "December 2023",
+    component: <PDFView file={mobility_safety} />,
+    tags: (
+      <Stack direction="row" spacing={1}>
+        <Chip
+          label="Math & Physics"
+          variant="outlined"
+          size="small"
+          color="info"
+        />
+        <Chip
+          label="Data Analysis & Modeling"
+          variant="outlined"
+          size="small"
+          color="info"
+        />
+      </Stack>
+    ),
+  },
+  {
+    id: 3,
+    cardVisibility: true,
+    visibility: false,
+    title: "Navigating Inclimate Weather",
+    image: "./assets/images/av-adverse-weather/cover-image.jpg",
+    description: `
             Summary of challenges and solutions for autonomous
             vehicles navigating adverse weather conditions.
             `,
-      date: "December 2023",
-      component: <PDFView file={av_weather} />,
-      tags: (
-        <Stack direction="row" spacing={1}>
-          <Chip
-            label="Machine Learning"
-            variant="outlined"
-            size="small"
-            color="info"
-          />
-        </Stack>
-      ),
-    },
+    date: "December 2023",
+    component: <PDFView file={av_weather} />,
+    tags: (
+      <Stack direction="row" spacing={1}>
+        <Chip
+          label="Machine Learning"
+          variant="outlined"
+          size="small"
+          color="info"
+        />
+      </Stack>
+    ),
+  },
   {
-    id: 2,
+    id: 4,
     cardVisibility: true,
     visibility: false,
     title: "Value of Travel Time",
@@ -103,7 +152,7 @@ const initialProjects = [
     ),
   },
   {
-    id: 3,
+    id: 5,
     cardVisibility: true,
     visibility: false,
     title: "Optimizing Transit",
@@ -127,7 +176,7 @@ const initialProjects = [
     ),
   },
   {
-    id: 4,
+    id: 6,
     cardVisibility: true,
     visibility: false,
     title: "Victoria Origin Destination",
@@ -151,7 +200,7 @@ const initialProjects = [
     ),
   },
   {
-    id: 5,
+    id: 7,
     cardVisibility: true,
     visibility: false,
     title: "Avoided GHGs",
@@ -175,7 +224,7 @@ const initialProjects = [
     ),
   },
   {
-    id: 6,
+    id: 8,
     cardVisibility: true,
     visibility: false,
     title: "ML Ridership Model",
@@ -199,7 +248,7 @@ const initialProjects = [
     ),
   },
   {
-    id: 7,
+    id: 9,
     cardVisibility: true,
     visibility: false,
     title: "Traffic Flow Analysis",
@@ -223,7 +272,7 @@ const initialProjects = [
     ),
   },
   {
-    id: 8,
+    id: 10,
     cardVisibility: true,
     visibility: false,
     title: "Railyard Switch System",
@@ -247,7 +296,7 @@ const initialProjects = [
     ),
   },
   {
-    id: 9,
+    id: 11,
     cardVisibility: true,
     visibility: false,
     title: "LRT Simulation",
@@ -266,7 +315,7 @@ const initialProjects = [
     ),
   },
   {
-    id: 10,
+    id: 12,
     cardVisibility: true,
     visibility: false,
     title: "Molecular Beam",
@@ -291,23 +340,6 @@ const initialProjects = [
           size="small"
           color="info"
         />
-      </Stack>
-    ),
-  },
-  {
-    id: 11,
-    cardVisibility: true,
-    visibility: false,
-    title: "Thesis Placeholder",
-    image: "./assets/images/thesis-placeholder/cover-image.jpg",
-    description: `
-        Coming soon.
-        `,
-    date: "Ongoing",
-    component: <ThesisPlaceholder date="Ongoing" />,
-    tags: (
-      <Stack direction="row" spacing={1}>
-        <Chip label="???" variant="outlined" size="small" color="info" />
       </Stack>
     ),
   },

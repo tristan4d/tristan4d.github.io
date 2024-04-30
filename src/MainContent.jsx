@@ -5,7 +5,6 @@ import TabPanel from './navigation/TabPanel';
 import ProjectList from './projects/ProjectList';
 import NavTabs from './navigation/NavTabs';
 import AboutMeShort from './about_me/AboutMeShort';
-// import AboutMe from './about_me/AboutMe';
 import BusDriver from './bus_driver/BusDriver';
 import Home from './home/Home';
 import './MainContent.css';
